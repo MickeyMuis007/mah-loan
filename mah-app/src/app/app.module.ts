@@ -9,8 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
  * Import Components
  */
 import { AppComponent } from './app.component';
-import { EmployeeComponent } from './stakeholders/employees/employee.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { EmployeeComponent } from './components/stakeholders/employees/employee.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
