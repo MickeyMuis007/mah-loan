@@ -9,13 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
  * Import Components
  */
 import { AppComponent } from './app.component';
-import { EmployeeComponent } from './components/stakeholders/employees/employee.component';
+import { EmployeeListComponent } from './components/stakeholders/employees/employee-list/employee-list.component';
+import { EmployeeDetailComponent } from './components/stakeholders/employees/employee-detail/employee-detail.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeComponent,
+    EmployeeListComponent,
+    EmployeeDetailComponent,
     WelcomeComponent
   ],
   imports: [
