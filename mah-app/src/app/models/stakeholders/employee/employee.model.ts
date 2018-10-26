@@ -1,6 +1,7 @@
-export interface Employee {
+import { Stakeholder } from "../stakeholder.model";
+
+export interface Employee extends Stakeholder {
     id: number,
-    name: string,
     role: string,
     salary: number,
     startDate: Date,

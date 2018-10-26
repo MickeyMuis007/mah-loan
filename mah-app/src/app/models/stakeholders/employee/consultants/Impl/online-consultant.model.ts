@@ -1,4 +1,5 @@
 import { Consultant } from '../consultant.model';
+import { Contact } from "src/app/models/contacts/contact.model";
 
 export class OnlineConsultant implements Consultant {
     id: number;
@@ -8,4 +9,6 @@ export class OnlineConsultant implements Consultant {
     startDate: Date;
     endDate: Date;
     type: string;
+    dateOfBirth: Date;
+    contact: Contact;
 }

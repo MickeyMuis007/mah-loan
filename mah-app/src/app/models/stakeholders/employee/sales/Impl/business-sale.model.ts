@@ -1,4 +1,5 @@
 import { Sale } from '../sale.model';
+import { Contact } from "src/app/models/contacts/contact.model";
 
 export class BusinessSale implements Sale {
     id: number;
@@ -9,4 +10,6 @@ export class BusinessSale implements Sale {
     endDate: Date;
     type: string;
     commissionRate: number;    
+    dateOfBirth: Date;
+    contact: Contact;
 }
