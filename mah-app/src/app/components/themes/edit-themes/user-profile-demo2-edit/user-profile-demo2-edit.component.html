@@ -1,0 +1,92 @@
+<div class="container-fluid main-section">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 image-section">
+            <img src="assets/images/drops.jpg">
+        </div>
+        <div class="row user-left-part">
+            <div class="col-md-2 col-sm-2 col-xs-12 user-profile-part pull-left">
+                <div class="row ">
+                    <div class="col-md-12 col-md-12-sm-12 col-xs-12 user-image text-center">
+                        <img src="assets/images/generic-user-purple.png" class="rounded-circle">
+                        <button class="btn btn-primary btn-block btn-logout">Logout</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-12 pull-right profile-right-section">
+                <div class="row profile-right-section-row">
+                    <div class="col-md-12 profile-header">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-6 profile-header-section1 pull-left">
+                                <h1>{{user.profile.firstName + " " + user.profile.lastName}}</h1>
+                                <h5>Developer</h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active"><i class="fas fa-user-circle"></i>Profile</a>
+                                    </li>
+                                </ul>
+                                <div class="fade show">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label>ID</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{user.id}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label>Name</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{user.profile.firstName + " " + user.profile.lastName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{user.profile.login}}</p>
+                                        </div>
+                                    </div>            
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label>Password Changed</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{user.passwordChanged}}</p>
+                                        </div>
+                                    </div>            
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label>Locale</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{user.profile.locale}}</p>
+                                        </div>
+                                    </div>                             
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <label>Time Zone</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{user.profile.timeZone}}</p>
+                                        </div>
+                                    </div>                   
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

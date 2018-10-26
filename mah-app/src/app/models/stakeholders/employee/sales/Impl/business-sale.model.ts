@@ -12,4 +12,12 @@ export class BusinessSale implements Sale {
     commissionRate: number;    
     dateOfBirth: Date;
     contact: Contact;
+
+    constructor () {
+        this.role = "Sale";
+        this.type = "Business";
+        this.name = "name";
+    }
+
+    
 }
