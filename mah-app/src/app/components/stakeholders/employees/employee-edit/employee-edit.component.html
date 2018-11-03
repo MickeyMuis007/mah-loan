@@ -1,0 +1,10 @@
+<h1>Edit Employee</h1>
+<hr>
+<form #form1="ngForm" autocomplete="off" (ngSubmit)=save(form1.value) novalidate>
+    <div>
+        <label  class="col-lg-4">Name</label>
+        <div class="col-lg-8">
+        <input [(ngModel)]="model.name" name="name" id="name" type="text" class="form-control" />
+    </div>
+    </div>
+</form>
