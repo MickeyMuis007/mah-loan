@@ -10,14 +10,7 @@ export class EmployeeDetailComponent implements OnInit{
     title = 'Employee Detail';
     @Input() model: Employee;
 
-    ngOnInit(){
-        // this.model = {
-        //     id: 1,
-        //     name: "Mike"
-            
-
-        
-        // }
+    ngOnInit(){      
         this.initializeModel();
     }
 
