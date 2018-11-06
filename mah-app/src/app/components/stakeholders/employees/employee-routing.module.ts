@@ -4,6 +4,7 @@
  * Descripttion: This route constant handles all the route that involve employees in this sub directories.
  */
 
+ /* Import Module */
 import { NgModule } from '@angular/core'; 
 import { Routes, RouterModule } from '@angular/router';
 
@@ -24,6 +25,6 @@ const employeeRoutes: Routes = [
     imports: [RouterModule.forChild(employeeRoutes)],
     exports: [RouterModule]
 })
-export class EmployeeRoutingModule{
+export class EmployeeRoutingModule {
     
 }

@@ -3,13 +3,13 @@
  * Date Modified: 04/11/2018
  */
 
-/* Modules */
+/* Import Modules */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { EmployeeRoutingModule } from './employee-routing.module';
 
-/* Components */
+/* Import Components */
 import { EmployeeComponent } from './employee.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeEditComponent } from './employee-edit/employee-edit.component';
