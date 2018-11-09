@@ -6,25 +6,23 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'employee',
+    selector: 'app-employee',
     templateUrl: './employee.component.html',
     styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent implements OnInit {
-    title: string;    
+    title: string;
 
     constructor() {
-        this.title = "Employee";
+        this.title = 'Employee';
     }
 
     /**
      * NgOnInit should be use to initialize component logic, my understanding.
      * Angular doc definintion: Initialize the directive/component after Angular
-     *                          first displays the data-bound properties and sets 
+     *                          first displays the data-bound properties and sets
      *                          the directive/component's input properties.
      */
     ngOnInit() {
-        
     }
-    
 }

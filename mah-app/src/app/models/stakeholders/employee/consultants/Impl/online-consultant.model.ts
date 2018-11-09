@@ -1,10 +1,10 @@
 import { Consultant } from '../consultant.model';
-import { Contact } from "src/app/models/contacts/contact.model";
+import { Contact } from 'src/app/models/contacts/contact.model';
 
 export class OnlineConsultant implements Consultant {
     id: number;
     name: string;
-    role: string; 
+    role: string;
     salary: number;
     startDate: Date;
     endDate: Date;

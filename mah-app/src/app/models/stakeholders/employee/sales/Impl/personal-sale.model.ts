@@ -1,5 +1,5 @@
 import { Sale } from '../sale.model';
-import { Contact } from "src/app/models/contacts/contact.model";
+import { Contact } from 'src/app/models/contacts/contact.model';
 
 export class PersonalSale implements Sale {
     id: number;

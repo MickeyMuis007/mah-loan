@@ -1,4 +1,4 @@
-import { Contact } from "../contacts/contact.model";
+import { Contact } from '../contacts/contact.model';
 
 export interface Stakeholder {
     name: string;

@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class EmployeeEditComponent {
     model = {
-        name: "Mike"
-    }
+        name: 'Mike'
+    };
 }

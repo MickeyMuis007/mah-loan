@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
     templateUrl: './bootstrap-dashboard.component.html',
     styleUrls: ['./bootstrap-dashboard.component.css']
 })
-export class BootstrapDashboard {
+export class BootstrapDashboardComponent {
 
 }

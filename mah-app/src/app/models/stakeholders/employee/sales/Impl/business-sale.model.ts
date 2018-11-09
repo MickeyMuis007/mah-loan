@@ -1,5 +1,5 @@
 import { Sale } from '../sale.model';
-import { Contact } from "src/app/models/contacts/contact.model";
+import { Contact } from 'src/app/models/contacts/contact.model';
 
 export class BusinessSale implements Sale {
     id: number;
@@ -9,15 +9,13 @@ export class BusinessSale implements Sale {
     startDate: Date;
     endDate: Date;
     type: string;
-    commissionRate: number;    
+    commissionRate: number;
     dateOfBirth: Date;
     contact: Contact;
 
     constructor () {
-        this.role = "Sale";
-        this.type = "Business";
-        this.name = "name";
+        this.role = 'Sale';
+        this.type = 'Business';
+        this.name = 'name';
     }
-
-    
 }

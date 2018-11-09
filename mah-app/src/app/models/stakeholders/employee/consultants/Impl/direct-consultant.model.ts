@@ -1,5 +1,5 @@
 import { Consultant } from '../consultant.model';
-import { Contact } from "src/app/models/contacts/contact.model";
+import { Contact } from 'src/app/models/contacts/contact.model';
 
 export class DirectConsultant implements Consultant {
     id: number;

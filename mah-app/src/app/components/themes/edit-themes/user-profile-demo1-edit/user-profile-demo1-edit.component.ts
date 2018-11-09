@@ -7,17 +7,15 @@ import { FundiUser } from 'src/app/models/login/fundi-user.model';
 })
 export class UserProfileDemo1EditComponent implements OnInit {
     model: FundiUser;
-    
     ngOnInit() {
-        this.model = { 
-            userId: "mike007",
-            name: "Michael Hendricks",
-            email: "mike007@gmail.com",
-            phone: "123 3432 7777",
-            profession: "Web Developer",
-            imageUrl: "assets/images/default.png"
+        this.model = {
+            userId: 'mike007',
+            name: 'Michael Hendricks',
+            email: 'mike007@gmail.com',
+            phone: '123 3432 7777',
+            profession: 'Web Developer',
+            imageUrl: 'assets/images/default.png'
          };
 
     }
-
 }
