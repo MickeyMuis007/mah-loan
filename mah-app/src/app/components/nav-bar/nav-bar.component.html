@@ -1,10 +1,26 @@
 <nav>
-    <div class="nav nav-tabs nav-bar-dark bg-dark">
-      <a class="nav-item nav-link" routerLink="/home">Home</a>
-      <a class="nav-item nav-link" routerLink="/employee">Employee</a>
-      <a class="nav-item nav-link" routerLink='bootstrap/userProfileDemo1'>User Profile Demo 1</a>
-      <a class="nav-item nav-link" routerLink='bootstrap/userProfileDemo2'>User Profile Demo 2</a>
-      <a class="nav-item nav-link" routerLink='bootstrap/userProfileDemo1Edit'>User Profile Demo 1 Edit</a>
-      <a class="nav-item nav-link" routerLink='bootstrap/userProfileDemo2Edit'>User Profile Demo 2 Edit</a>
+  <div class="nav nav-tabs nav-bar-dark bg-dark">
+    <a class="nav-item nav-link" routerLink="/home">Home</a>
+    <a class="nav-item nav-link" routerLink="/employee">Employee</a>
+    <div class="dropdown">
+      <button class="nav-link dropdown-toggle" id="b1" data-toggle="dropdown" type="button"
+         aria-haspopup="true" aria-expanded="false">Bootstrap Themes</button>
+      <div class="dropdown-menu" aria-labelledby="b1">
+        <a class="dropdown-item" routerLink='bootstrap/userProfileDemo1'>User Profile Demo 1</a>
+        <a class="dropdown-item" routerLink='bootstrap/userProfileDemo2'>User Profile Demo 2</a>
+        <a class="dropdown-item" routerLink='bootstrap/userProfileDemo1Edit'>User Profile Demo 1 Edit</a>
+        <a class="dropdown-item" routerLink='bootstrap/userProfileDemo2Edit'>User Profile Demo 2 Edit</a>
+      </div>
+    </div>    
+  </div>   
+</nav>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
     </div>
-  </nav>
+  </div>
