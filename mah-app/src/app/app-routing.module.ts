@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'employee', loadChildren: './components/stakeholders/employees/employee.module#EmployeeModule' },
   { path: 'bootstrap', loadChildren: './components/themes/themes.module#ThemesModule' },
+  { path: 'authentication', loadChildren: './components/authentication/authentication.module#AuthenticationModule'},
   { path: '**', redirectTo: 'home' }
 ];
 
